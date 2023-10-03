@@ -73,5 +73,20 @@ namespace DesafioFundamentos.Models
                 Console.WriteLine("Não há veículos estacionados.");
             }
         }
+
+        public decimal PrecoInicial
+        {
+            get { return precoInicial; }
+        }
+
+        public decimal PrecoPorHora
+        {
+            get { return precoPorHora; }
+        }
+
+        public List<string> Veiculos
+        {
+            get { return veiculos; }
+        }
     }
 }
